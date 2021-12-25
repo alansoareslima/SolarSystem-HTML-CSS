@@ -1,0 +1,287 @@
+body {
+	font-family: 'Oswald', sans-serif;
+}
+
+
+
+/*CSS DO HEADER*/
+
+header {
+	background: url("images/background.jpg");
+	padding: 20px 0;
+}
+
+.caixa {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+.logo {
+	width: 12%;
+	pointer-events: none;
+}
+
+nav {
+	position: absolute;
+	top:  34px;
+	right: 0;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 20px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: white;
+	font-weight: bold;
+	font-size: 26px;
+	transition: 100ms;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: red;
+	transition: 120ms;
+	font-size: 28px;
+}
+
+nav a:active {
+	color: darkred;
+}
+
+
+
+/* CSS DOS PLANETAS */
+
+.planetas-geral {
+	background: linear-gradient(#000000, #13408c, #888888);
+}
+
+.planetas {
+	width: 940px;
+	margin: 0 auto;
+	padding: 45px 0;
+}
+
+.planetas li {
+	display: inline-block;
+	text-align: center;
+	width: 20.7%;
+	vertical-align: top;
+	margin: 2% 2%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border: 1px solid white;
+	border-radius: 15px;
+	cursor: pointer;
+	background: url("images/background.jpg");
+	box-shadow: 10px 10px 10px 0px black;
+	transition: 200ms;
+}
+
+.mercurio:hover {
+	border: 3px solid #7b7b7b;
+	box-shadow: 0px 0px 15px 7px #7b7b7b;
+	transition: 200ms;
+}
+
+.venus:hover {
+	border: 3px solid #c48026;
+	box-shadow: 0px 0px 15px 7px #c48026;
+	transition: 200ms;
+}
+
+.terra:hover {
+	border: 3px solid midnightblue;
+	box-shadow: 0px 0px 15px 7px midnightblue;
+	transition: 200ms;
+}
+
+.marte:hover {
+	border: 3px solid #f17240;
+	box-shadow: 0px 0px 15px 7px #f17240;
+	transition: 200ms;
+}
+
+.jupiter:hover {
+	border: 3px solid #c37b3b;
+	box-shadow: 0px 0px 15px 7px #c37b3b;
+	transition: 200ms;
+}
+
+.saturno:hover {
+	border: 3px solid #ecd2a9;
+	box-shadow: 0px 0px 15px 7px #ecd2a9;
+	transition: 200ms;
+}
+
+.urano:hover {
+	border: 3px solid #cbf1f3;
+	box-shadow: 0px 0px 15px 7px #cbf1f3;
+	transition: 200ms;
+}
+
+.netuno:hover {
+	border: 3px solid midnightblue;
+	box-shadow: 0px 0px 15px 7px midnightblue;
+	transition: 200ms;
+}
+
+.planetas li:active {
+	border: 3px solid red;
+	box-shadow: 0px 0px 15px 7px darkred;
+	transition: 200ms;
+}
+
+.planetas li:hover h2 {
+	font-size: 30px;
+	transition: 200ms;
+}
+
+.planetas li a {
+	text-decoration: none;
+}
+
+.planetas li img {
+	width: 100%;
+	margin: 10px 0;
+}
+
+.planetas h2 {
+	color: white;
+	text-align: center;
+	font-size: 26px;
+	transition: 200ms;
+	font-weight: bold;
+
+}
+
+.descricao-planeta {
+	color: white;
+	font-size: 22px;
+}
+
+.ano-solar {
+	color: white;
+	font-size: 23px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+
+
+/* CSS do Index */
+
+.banner img {
+	width: 100%;
+}
+
+.principal {
+	padding: 3em 0;
+	width: 940px;
+	margin: 0 auto;
+	background: ;
+}
+
+.principal p {
+	margin: 0 0 1em;
+	font-size: 1.35em;
+	text-align: justify;
+}
+
+.principal strong {
+	font-weight: bold;
+}
+
+.principal em {
+	font-style: italic;
+}
+
+.titulo-principal {
+	text-align: center;
+	font-size: 2em;
+	margin: 0 0 1em;
+	clear: left;
+}
+
+.via-lactea {
+	width: 120px;
+	float: left;
+	margin: 0 20px 20px 0;
+}
+
+.local {
+	padding: 3em 0;
+	background: radial-gradient(white, #3a4a75, black);
+}
+
+.local h3 {
+	color: white;
+}
+
+.local p {
+	margin: 0 0 2em;
+	text-align: center;
+	font-size: 1.5em;
+	color: white;
+}
+
+.imagem-terra {
+	width: 940px;
+	margin: 0 auto;
+}
+
+.imagem-terra img {
+	width: 100%;
+	border-radius: 10px;
+}
+
+
+/* CSS do footer */
+
+footer {
+	text-align: center;
+	background: #1C1C1C;
+	padding: 30px 0;
+}
+
+.info-dev {
+	margin: 30px 0;
+}
+
+.info-dev h1 {
+	margin: 5px 0;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+}
+
+.info li a {
+	color: white;
+	font-size: 16px;
+	text-decoration: none;
+}
+
+.info li a:hover {
+	color: red;
+	text-decoration: underline;
+}
+
+.info img {
+	width: 2%;
+	margin: 0px 8px 0px 0px;
+}
+
+.copyright {
+	color:  white;
+	font-size: 14px;
+	margin-top: 20px;
+}
+
+
+
+
+
