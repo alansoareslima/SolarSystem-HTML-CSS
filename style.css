@@ -175,15 +175,23 @@ nav a:active {
 
 /* CSS do Index */
 
+.banner {
+	width: 940px;
+	margin: 0 auto;
+}
+
 .banner img {
 	width: 100%;
+}
+
+.sistema-sobre {
+	padding-top: 30px;
 }
 
 .principal {
 	padding: 3em 0;
 	width: 940px;
 	margin: 0 auto;
-	background: ;
 }
 
 .principal p {
@@ -201,6 +209,7 @@ nav a:active {
 }
 
 .titulo-principal {
+	font-weight: bold;
 	text-align: center;
 	font-size: 2em;
 	margin: 0 0 1em;
@@ -215,18 +224,21 @@ nav a:active {
 
 .local {
 	padding: 3em 0;
-	background: radial-gradient(white, #3a4a75, black);
+	background: linear-gradient(white, #3a4a75, black, #010010);
 }
 
 .local h3 {
+	text-shadow: 2px 2px black;
 	color: white;
 }
 
 .local p {
 	margin: 0 0 2em;
 	text-align: center;
-	font-size: 1.5em;
+	font-size: 1.8em;
 	color: white;
+	text-shadow: 2px 2px black;
+	font-weight: bold;
 }
 
 .imagem-terra {
@@ -237,6 +249,82 @@ nav a:active {
 .imagem-terra img {
 	width: 100%;
 	border-radius: 10px;
+	padding-bottom: 80px;
+}
+
+.camadas-geral {
+	background: linear-gradient(#010010 20%, #2e75b5, #9dc3e7, #8298b0, #adb8ca);
+}
+
+.camadas-geral h4 {
+	text-shadow: 2px 2px black;
+	color: white;
+	font-size: 2.5em;
+	text-transform: uppercase;
+}
+
+.camadas {
+	padding: 3em 0;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.camadas div {
+	padding-bottom: 220px;
+}
+
+.camadas h1 {
+	text-shadow: 2px 2px black;
+	color: white;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.descricao-camada {
+	text-align: center;
+	font-size: 1.8em;
+	color:  white;
+	text-shadow: 2px 2px black;
+	font-weight: bold;
+}
+
+.camadas-terra {
+	padding: 3em 0;
+	background: #adb8ca;
+}
+
+.conteudo-camadast {
+	width: 940px;
+	margin: 0 auto;
+}
+
+.lista-camadast {
+	width: 40%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.itens {
+	line-height: 1.5;
+	font-size: 1.2em;
+}
+
+.itens:last-child {
+	font-weight: bold;
+}
+
+.itens:before {
+	content: "★ ";
+}
+
+.imagem-camadast {
+	width: 58%;
+	opacity: 1;
+	transition: 400ms;
+}
+
+.imagem-camadast:hover {
+	width: 60%;
 }
 
 
@@ -280,8 +368,3 @@ footer {
 	font-size: 14px;
 	margin-top: 20px;
 }
-
-
-
-
-
