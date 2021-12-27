@@ -18,7 +18,7 @@ header {
 }
 
 .logo {
-	width: 12%;
+	width: 115px;
 	pointer-events: none;
 }
 
@@ -173,7 +173,7 @@ nav a:active {
 
 
 
-/* CSS do Index */
+/* CSS DO INDEX*/
 
 .banner {
 	width: 940px;
@@ -184,12 +184,15 @@ nav a:active {
 	width: 100%;
 }
 
+
+/* index | section sistema-sobre */
 .sistema-sobre {
 	padding-top: 30px;
+	background: linear-gradient(white, black);
 }
 
 .principal {
-	padding: 3em 0;
+	padding: 2.5em 0;
 	width: 940px;
 	margin: 0 auto;
 }
@@ -222,13 +225,20 @@ nav a:active {
 	margin: 0 20px 20px 0;
 }
 
+.video-sistema {
+	width: 560px;
+	margin: 0 auto;
+	padding-bottom: 60px;
+}
+
+
+/* index | section local */
 .local {
 	padding: 3em 0;
-	background: linear-gradient(white, #3a4a75, black, #010010);
+	background: url("images/background.jpg"); /**linear-gradient(white, #3a4a75, black, #010010);*/
 }
 
 .local h3 {
-	text-shadow: 2px 2px black;
 	color: white;
 }
 
@@ -237,7 +247,6 @@ nav a:active {
 	text-align: center;
 	font-size: 1.8em;
 	color: white;
-	text-shadow: 2px 2px black;
 	font-weight: bold;
 }
 
@@ -252,12 +261,79 @@ nav a:active {
 	padding-bottom: 80px;
 }
 
+/* index | section camadas-terra */
+.camadas-terra {
+	padding: 7em 0;
+	background: black;
+}
+
+.conteudo-camadast {
+	width: 640px;
+	margin: 0 auto;
+	padding: 15px;
+	border-style: double;
+	border: 1px solid white;
+	background: url("images/background.jpg");
+}
+
+.conteudo-camadast h3 {
+	color: white;
+}
+
+.lista-camadast {
+	width: 55%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.itens {
+	line-height: 1.5;
+	font-size: 1.2em;
+	color: white;
+}
+
+.itens:last-child {
+	font-weight: bold;
+}
+
+.itens:before {
+	content: "★ ";
+}
+
+.camada-cinza {
+	color: #505257;
+}
+
+.camada-laranja {
+	color: #ef4020;
+}
+
+.camada-amarelo {
+	color: #f28f14;
+}
+
+.camada-amareloclaro {
+	color: #f8f57a;
+}
+
+.imagem-camadast {
+	padding: 0 30px;
+	width: 33%;
+	opacity: 1;
+	transition: 400ms;
+}
+
+.imagem-camadast:hover {
+	width: 35%;
+}
+
+/* index | section camadas-geral */
 .camadas-geral {
-	background: linear-gradient(#010010 20%, #2e75b5, #9dc3e7, #8298b0, #adb8ca);
+	background: linear-gradient(#000000 1%, #010010, #2e75b5, #9dc3e7, #8298b0, #adb8ca);
 }
 
 .camadas-geral h4 {
-	text-shadow: 2px 2px black;
+	padding-top: 15px;
 	color: white;
 	font-size: 2.5em;
 	text-transform: uppercase;
@@ -269,7 +345,7 @@ nav a:active {
 	margin: 0 auto;
 }
 
-.camadas div {
+.camadas div:not(#troposfera) {
 	padding-bottom: 220px;
 }
 
@@ -288,44 +364,20 @@ nav a:active {
 	font-weight: bold;
 }
 
-.camadas-terra {
-	padding: 3em 0;
+/* index | section espaco-geral */
+.espaco-geral {
 	background: #adb8ca;
 }
 
-.conteudo-camadast {
+.espaco {
 	width: 940px;
 	margin: 0 auto;
 }
 
-.lista-camadast {
-	width: 40%;
-	display: inline-block;
-	vertical-align: top;
+.onibus {
+	width: 100%;
 }
 
-.itens {
-	line-height: 1.5;
-	font-size: 1.2em;
-}
-
-.itens:last-child {
-	font-weight: bold;
-}
-
-.itens:before {
-	content: "★ ";
-}
-
-.imagem-camadast {
-	width: 58%;
-	opacity: 1;
-	transition: 400ms;
-}
-
-.imagem-camadast:hover {
-	width: 60%;
-}
 
 
 /* CSS do footer */
@@ -359,7 +411,7 @@ footer {
 }
 
 .info img {
-	width: 2%;
+	width: 25px;
 	margin: 0px 8px 0px 0px;
 }
 
