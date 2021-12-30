@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Contato</title>
+	<link rel="icon" type="image/jpg" href="images/logo-nasa.png">
+	<link rel="stylesheet" href="reset.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Oswald:wght@200&family=Teko:wght@300&family=Yanone+Kaffeesatz:wght@300&display=swap" rel="stylesheet">
+</head>
+  
+<body>
+	<header>
+		<div class="caixa">
+			<h1><img src="images/logo-nasa.png" alt="Logotipo da Nasa" class="logo"></h1>
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="planetas.html">Planetas</a></li>
+					<li><a href="contato.html">Contato</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<main>
+		<section class="principal-contato">
+				<form>
+					<label for="nomesobrenome">Nome e sobrenome</label>
+					<input type="text" id="nomesobrenome" class="input-padrao" required>
+
+					<label for="email">Email</label>
+					<input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+
+					<label for="telefone">Telefone</label>
+					<input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) 12345-6789">  
+
+					<label for="mensagem">Mensagem</label>
+					<textarea cols="70" rows="10" id="mensagem" class="input-padrao" required></textarea>
+
+					<fieldset>
+						<legend>Como prefere o nosso contato?</legend>
+						<label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">Email</label>
+
+						<label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label>
+
+						<label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked>WhatsApp</label>
+					</fieldset>
+
+					<fieldset>
+						<legend>Qual horário prefere ser atendido?</legend>
+						<select>
+							<option>Manhã</option>
+							<option>Tarde</option>
+							<option>Noite</option>
+						</select>
+					</fieldset>
+
+					<label><input type="checkbox" class="checkbox" checked>Gostaria de receber as nossas novidades por email?</label>
+
+					<input type="submit" value="Enviar formulário" class="enviar">
+				</form>
+
+				<table>
+
+				<thead>
+					<tr>Horários de atendimento</tr>
+
+					<tr>
+						<th>Dia</th>
+						<th>Horário</th>
+					</tr>	
+				</thead>
+
+				<tbody>
+					<tr>
+						<td>Terça</td>
+						<td>8h às 18h</td>
+					</tr>
+
+					<tr>
+						<td>Quarta</td>
+						<td>8h às 18h</td>
+					</tr>
+
+					<tr>
+						<td>Quinta</td>
+						<td>8h às 18h</td>
+					</tr>
+
+					<tr>
+						<td>Sexta</td>
+						<td>8h às 18h</td>
+					</tr>
+
+					<tr>
+						<td>Sábado</td>
+						<td>9h às 16h</td>
+					</tr>
+				</tbody>
+			</table>
+			</section>
+	</main>
+
+	<footer>
+		<div class="info-dev">
+			<h1>Informações do Desenvolvedor:</h1>
+			<ul class="info">
+				<li><a href="https://github.com/alansoareslima"><img src="images/github.png" alt="Logotipo do GitHub" class="logo-info">GitHub</a></li>
+
+				<li><a href="https://www.linkedin.com/in/alansoareslima/"><img src="images/linkedin.png" alt="Logotipo do LinkedIn" class="logo-info">LinkedIn</a></li>
+			</ul>
+		</div>
+		<img src="images/astronauta.png" alt="Astronauta segurando uma câmera" class="logo">
+		<p class="copyright">&copy; Copyright Lima, Alan - Todos os direitos reservados 2021.</p>
+	</footer>
+</body>
+</html>
