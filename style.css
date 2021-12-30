@@ -380,7 +380,70 @@ nav a:active {
 
 
 
-/* CSS do footer */
+/* CSS DA PÁGINA DE CONTATO */
+
+.principal-contato {
+	padding: 3em 0;
+	background: #FEFEFE;
+	width: 940px;
+	margin: 0 auto;
+}
+
+form {
+	margin: 40px 0;
+}
+
+form label, form legend {
+	display: block;
+	font-size: 20px;
+	margin: 0 0 10px;
+}
+
+.input-padrao {
+	display: block;
+	margin-bottom: 20px;
+	padding: 10px 25px;
+	width: 50%;
+}
+
+.checkbox {
+	margin: 20px 0px;
+}
+
+.enviar {
+	width: 40%;
+	padding: 15px 0;
+	font-size: 18px;
+	background: lightgray;
+	border: 1px solid black;
+	border-radius: 5px;
+	transition: 0.1s all;
+	cursor: pointer;
+}
+
+.enviar:hover {
+	background: green;
+}
+
+table {
+	margin: 20px 0 40px;
+	box-shadow: black 0px 0px 4px 1px;
+}
+
+thead {
+	background: #555555;
+	color: white;
+	font-weight: bold;
+}
+
+td, th {
+	border: 1px solid black;
+	padding: 8px 15px;
+}
+
+
+
+/* CSS DO FOOTER */
 
 footer {
 	text-align: center;
