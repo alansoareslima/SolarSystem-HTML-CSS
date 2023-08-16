@@ -1,5 +1,6 @@
 ![earth](https://github.com/alansoareslima/SolarSystem-HTML-CSS/assets/87402658/2b9ed5b3-2b07-4950-973e-b6b9c36811ab)
-![Static Badge](https://img.shields.io/badge/HTML-red) ![Static Badge](https://img.shields.io/badge/CSS-blue)
+![Static Badge](https://img.shields.io/badge/HTML-red) ![Static Badge](https://img.shields.io/badge/CSS-blue) ![Static Badge](https://img.shields.io/badge/Release-February%202021-green)
+
 
 ## Project Name: Solar System
 
